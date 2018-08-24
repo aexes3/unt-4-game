@@ -79,30 +79,33 @@ body{
 }
 .char1{
 	margin: 10px;
-	width: 140px;
-	height: 100%;
+	width: 100px;
+	height: 150px;
 	float: left;
+	background-color: rgba(204, 204, 204, 0.397);
+
 }
-.char2
-{
+.char2{
 	margin: 10px;
-	width: 140px;
-	height: 100%;
+	width: 100px;
+	height: 150px;
 	float: left;
+	background-color: rgba(204, 204, 204, 0.397);
 }
 
 .char3{
 	margin: 10px;
-	width: 140px;
-	height: 100%;
+	width: 100px;
+	height: 150px;
 	float: left;
+	background-color: rgba(204, 204, 204, 0.397);
 }
-.char4
-{
+.char4{
 	margin: 10px;
-	width: 140px;
-	height: 100%;
+	width: 100px;
+	height: 150px;
 	float: left;
+	background-color: rgba(204, 204, 204, 0.397);
 }
 .enemiesBox{
 	width: 700px;

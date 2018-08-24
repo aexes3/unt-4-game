@@ -23,7 +23,8 @@ $(document).ready(function(){
                 //Changes to false so Main character wont move to enemies area
                 char1Count = false;
                 // adds the characters that was not clicked to enemies section
-                $('.char2').appendTo('.enemiesBox').css({'height':'150px','width':'100px', 'background-color':'crimson'});
+                $('.char2').appendTo('.enemiesBox')
+                .css({'height':'150px','width':'100px', 'background-color':'crimson', 'background-opacity':'.05'});
                 //Centers characters Health text
                 $('.char2 p').css({'margin-left': '30px'});
                 
