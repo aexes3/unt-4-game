@@ -49,17 +49,20 @@ table {
 /*-------End Reset----------*/
 
 body{
-    background-image: url('../images/batterjambackground.jpg');
+	background-image: url('../images/batterjambackground.jpg');
     background-size: 100%;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	color: white;
 }
-#container{
-    width: 100%;
-    margin: auto 50px;
+.content{
+	padding-top: 10px;
+	max-width: 680px;
+	margin: auto;
+	text-align: center;
 }
 .chooseCharacterBox{
 	width: 80%;
-	height: 150px;
+	height: 175px;
     margin: 10px 0 0 10px;
     text-align: center;
 }
@@ -71,10 +74,13 @@ body{
 	margin-right: auto;
 	display: block;
 }
-.chooseCharacterBox h3{
-	color: #fff;
+h3{
+	color: rgb(0, 0, 0);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	background-color: rgba(204, 204, 204, 0.397);
 }
-.chooseCharacterBox p1{
+.chooseCharacterBox p{
 	font-size: 30px;
 }
 .char1{
@@ -110,10 +116,6 @@ body{
 .enemiesBox{
 	width: 700px;
 	height: 200px;
-	margin-left: 10px;
-}
-.enemiesBox h3{
-	color: #fff;
 	text-align: center;
 }
 .attackBtn{
@@ -125,6 +127,7 @@ body{
 .fightBox p{
 	font-size: 30px;
 	margin-left: 10px;
+	color: #fff;
 }
 .defenceBox{
 	width: 700px;
@@ -133,7 +136,4 @@ body{
 }
 .defenceBox p {
 	margin-left: 10px;
-}
-p2{
-	text-align: center;
 }
