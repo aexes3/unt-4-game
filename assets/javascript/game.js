@@ -184,7 +184,7 @@ $(document).ready(function () {
                by the Attack amount */
             let healthDefAfter = healthdefence - attackMain;
             //Updates main characters health attribute in the DOM
-            //TODO not updating
+
             let healthMain1 = $('.main').attr('health', healthMainAfter);
             //Updates defences health attribute in the DOM	
             let healthDef1 = $('.def').attr('health', healthDefAfter);
@@ -205,7 +205,7 @@ $(document).ready(function () {
             //Prents the attack button from being clicked after the game is over
             if (healthMainAfter <= 0) {
                 $('.defence').html('<p>' + 'You have been defeated...Game Over!!!' + ' </p>').css({ 'font-size': '20px' });
-                $('.main').remove();
+                $('.chooseCharacterBox').remove();
                 this.disabled = true;
 
             }
@@ -254,8 +254,8 @@ $(document).ready(function () {
                     slugCount--;
                     //Remove the the defence
                     $('.def').remove();
-                    $('.defence').html('<p>' + 'You have defeated ' + charName +
-                        ' choose to fight another enemy.' + '</p>');
+                    $('.defence').html('<p>' + 'You have defeated ' + charName + '</p>' +
+                        '<p>' + ' choose to fight another enemy.' + '</p>');
                     countDefeated++;
                 }
                 //Removed event listener after game is over
